@@ -1,0 +1,17 @@
+.categories{
+    position: absolute;
+    left: 20%;
+}
+.nav-pills{
+    font-family: 'Bangers';
+    font-size: 1.3em;
+}
+.nav-pills a:hover {
+    background-color: rgb(216, 216, 216);
+    color: rgb(61, 100, 117);
+    
+}
+.nav-pills a {
+    padding-right: 35px;
+    color: black;
+}

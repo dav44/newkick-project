@@ -1,0 +1,35 @@
+
+<app-categories-nav></app-categories-nav>
+<div class="container">
+  <h3>film</h3>
+<span>featured project</span>
+<div class="con">
+  <a [routerLink]="['/projectpage']" >
+    <div class="col-lg-7">
+        <img src="https://www.azernews.az/media/pictures/635922263662673154454201678_film.jpg" class="img-responsive" alt="Responsive image">
+    </div>
+  </a>
+
+    <div class="col-lg-5">
+      
+        <div class="row" >
+            <div class="col-xs-12" *ngFor="let project of projects">
+                <div [routerLink]="['/projectpage/', project._id]" class="list-group-item clearfix" >
+                <div class="pull-left">
+                  <h4 class="text-center">{{project.title}}</h4>
+              
+                </div>
+                <span class="pull-right">
+                <img class="img-fluid" src="https://cdn.allwallpaper.in/wallpapers/1024x576/13059/movie-posters-the-incredible-hulk-1024x576-wallpaper.jpg" alt="">
+              </span>
+            </div>
+              <hr>
+            
+          </div>
+          <hr>
+           
+    </div>
+    </div>
+    </div>
+</div>
+

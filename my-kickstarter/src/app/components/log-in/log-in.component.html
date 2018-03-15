@@ -1,0 +1,14 @@
+
+<div class="container">
+  <h1>Log In</h1>
+  <form (submit)="onLoginSubmit()" >
+     <div class="form-group">
+        <input type="Email" placeholder="Email" class="form-control" [(ngModel)]="email" name="email" >
+     </div>
+     <div class="form-group">
+        <input type="password" placeholder="Password" class="form-control" [(ngModel)]="password" name="password" >
+     </div>
+     <button type="submit" class="btn btn-primary">Log Me In!</button>
+  </form>
+  </div>
+  

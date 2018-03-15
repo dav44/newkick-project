@@ -1,0 +1,81 @@
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.col-lg-4 {
+    height: 400px;
+    background-color: rgb(247, 245, 244);
+    
+}
+.col-lg-8 {
+    padding-left: 0px;
+}
+.col-lg-12 {
+    background-color: rgb(247, 245, 244);
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+}
+.col-lg-3 {
+    background-color: rgb(247, 245, 244);
+}
+.support-box {
+    border: 1px solid black;
+    height: 500px;
+}
+.us {
+    height: 100px;
+    padding-top: 20px;
+}
+span {
+    display: block;
+}
+button {
+    width: 100%;
+}
+.money-usd{
+    color: rgb(61, 100, 117);
+    font-size: 3em;
+    font-family: 'Bangers';
+}
+.backers-count {
+    font-size: 3em;
+    font-family: 'Bangers'; 
+}
+.days-to-go-count {
+    font-size: 3em;
+    font-family: 'Bangers'; 
+}
+.btn-primary {
+    width: 100%;
+    color: black;
+    background-color: rgb(216, 216, 216);
+    font-family: 'Bangers';
+    border: none;
+    font-size: 2em;
+    
+}
+.btn-primary:hover {
+    color: rgb(61, 100, 117);
+}
+h2 {
+    font-size: 3em;
+    font-family: 'Bangers';
+    color: rgb(61, 100, 117);
+}
+h3 {
+    font-family: 'Bangers';
+}
+
+p {
+    font-size: 16px;
+}
+.back-project-button {
+    padding-top: 25px;
+}
+.money-goal , .backers , .days-to-go , .project-creator-name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+

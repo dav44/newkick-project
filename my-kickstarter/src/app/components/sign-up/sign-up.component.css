@@ -1,0 +1,27 @@
+.form-control {
+    height: 50px;   
+}
+
+.btn-primary {
+    width: 100%;
+    color: black;
+    background-color: rgb(216, 216, 216);
+    font-family: 'Bangers';
+    border: none;
+    font-size: 1.5em;
+}
+
+.btn-primary:hover {
+    color: rgb(61, 100, 117);
+}
+
+.container {
+    background-color: rgb(247, 245, 244);
+    width: 25%; 
+    height: 450px;
+}
+
+h1 {
+    font-family: 'Bangers'; 
+    color:rgb(61, 100, 117);
+}

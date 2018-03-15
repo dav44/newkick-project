@@ -1,0 +1,15 @@
+.container {
+    background-color: rgb(247, 245, 244);
+    width: 25%; 
+    height: 450px;
+}
+
+h2 {
+    font-family: 'Bangers'; 
+    color:rgb(61, 100, 117);
+}
+
+h3 {
+    font-family: 'Bangers';
+    color: black;
+}

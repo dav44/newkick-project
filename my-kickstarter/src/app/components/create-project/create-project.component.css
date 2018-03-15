@@ -1,0 +1,32 @@
+.container {
+    background-color: rgb(247, 245, 244);
+    width: 40%; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+h1 {
+    font-family: 'Bangers'; 
+    color:rgb(61, 100, 117);
+}
+.form-control {
+    height: 50px;   
+}
+.btn-primary {
+    width: 100%;
+    color: black;
+    background-color: rgb(216, 216, 216);
+    font-family: 'Bangers';
+    border: none;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.btn-primary:hover {
+    color: rgb(61, 100, 117);
+}
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}

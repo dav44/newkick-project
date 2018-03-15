@@ -1,0 +1,51 @@
+<div class="container">
+<h1>start your project</h1>
+<form action="/upload" method="POST" enctype="multipart/form-data" (submit)="onProjectCreatedSubmit()" >
+    <div class="form-group">
+        <label for="project-title">Project Title</label>
+        <input type="text" [(ngModel)]="title" name="title" class="form-control">
+    </div>
+    <div class="form-group">
+            <label for="project-subtitle">Project subtitle</label>
+            <input type="text" [(ngModel)]="subtitle" name="subtitle" class="form-control">
+        </div>
+  <div class="form-group">
+    <label for="categoty">Category</label>
+    <select name="categoty" class="form-control" id="category">
+      <option value="">Art</option>
+      <option value="">Music</option>
+      <option value="">Games</option>
+      <option value="">Film</option>
+      <option value="">Comics</option>
+      <option value="">Design &amp; Tech</option>
+    </select>
+    
+  </div>
+  
+  <div class="form-group">
+      <label for="project-img">Project IMG</label>
+      <input type="file" name="image" id="file" class="form-control" placeholder="Choose an img file...">
+  </div>
+
+  <div class="form-group">
+      <label for="founding-goal">Founding Goal</label>
+      <input type="number" [(ngModel)]="foundingGoal" name="foundingGoal"  class="form-control" placeholder="$">
+  </div>
+
+  <div class="form-group">
+      <label for="founding-duration">Founding Duration</label>
+      <input type="number" [(ngModel)]="foundingDuration" name="foundingDuration"  class="form-control" placeholder="Days">
+  </div>
+
+  <div class="form-group">
+      <label for="project-description">Project Description</label> 
+      <textarea [(ngModel)]="about" name="about" cols="30" rows="10"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Create Project</button>
+  
+  
+</form>
+</div>
+
+
+
