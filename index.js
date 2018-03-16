@@ -27,7 +27,7 @@ mongoose.connection.on('error', (err) => {
 
 app.get('/', (req, res) => {
     res.send('endpoint');
-
+});
 
 app.use(express.static('./my-kickstarter/dist'));
 app.use('/uploads', express.static('uploads'));
@@ -44,10 +44,6 @@ require('./config/passport')(passport);
 
 app.use('/users', users);
 app.use('/projects', projects);
-
-
-
-});
 
 
 app.listen(3000, () => {

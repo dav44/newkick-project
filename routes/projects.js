@@ -21,7 +21,7 @@ const fileFilter = (req, file, cb) => {
 } else {
     cb (null, false);
 }
-
+}
 const upload = multer({ 
     storage: storage,
     fileFilter: fileFilter 
@@ -71,5 +71,4 @@ router.get('/oneProject/:id', (req, res) => {
     });
 })
 
-}
 module.exports = router;
